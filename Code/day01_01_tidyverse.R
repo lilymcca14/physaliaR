@@ -49,6 +49,6 @@ p8 <- ggRGB(mato2006, r=2, g=1, b=3, stretch = "hist")
 (p5 | p7) / (p6 | p8)
 
 #run next three lines at the same time
-pdf("/Users/lilymccarthy/Desktop/r/physaliaTidyverseLandsat.pdf")
+pdf("pathway/title.pdf")
 (p5 | p6) / (p7 | p8)
 dev.off()
