@@ -67,7 +67,7 @@ p2 + p4 # both bar graphs
 (p1 | p2) / (p3 | p4) # image | graph / image | graph
 (p1 | p3) / (p2 | p4) # image | image / graph | graph
 
-pdf("/Users/lilymccarthy/Desktop/r/physalia/outputLandChange.pdf")
+pdf("pathway/title.pdf")
 (p1 | p3) / (p2 | p4)
 dev.off()
 
